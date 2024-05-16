@@ -9,7 +9,10 @@
 				praesentium, mollitia consequuntur! Perspiciatis, reprehenderit sint. Fugiat vitae
 				sit mollitia magnam dolorem aperiam obcaecati dignissimos autem qui.
 			</h3>
-			<img src="../../images/bakery.jpg" alt="Doe's Delight" />
+			<img
+				src="https://images.unsplash.com/photo-1583338917451-face2751d8d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				alt="Doe's Delight"
+			/>
 			<h3>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dignissimos
 				quae? Quam maiores dolorum necessitatibus unde quasi sint obcaecati autem, labore
@@ -58,7 +61,7 @@ img {
 	.body {
 		height: auto;
 	}
-	
+
 	#container {
 		display: flex;
 		flex-direction: column;
