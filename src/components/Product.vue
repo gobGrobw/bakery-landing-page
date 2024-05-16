@@ -17,21 +17,21 @@ import ProductTemplate from './ProductTemplate.vue';
 		<template #product>
 			<div class="card">
 				<div id="container">
-					<img src="../../images/cake.jpg" alt="Cakes" />
+					<img class="yellow-border" src="../../images/cake.jpg" alt="Cakes" />
 				</div>
 				<p>Cakes</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img src="../../images/pastry.jpg" alt="Pastries" />
+					<img class="yellow-border" src="../../images/pastry.jpg" alt="Pastries" />
 				</div>
 				<p>Pastries</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img src="../../images/brownies.jpg" alt="Brownies" />
+					<img class="yellow-border" src="../../images/brownies.jpg" alt="Brownies" />
 				</div>
 				<p>Brownies</p>
 			</div>
@@ -51,28 +51,28 @@ import ProductTemplate from './ProductTemplate.vue';
 		<template #product>
 			<div class="card">
 				<div id="container">
-					<img src="../../images/macarons.jpg" alt="Cakes" />
+					<img class="white-border" src="../../images/macarons.jpg" alt="Cakes" />
 				</div>
 				<p>Macarons</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img src="../../images/cupcakes.jpg" alt="Pastries" />
+					<img class="white-border" src="../../images/cupcakes.jpg" alt="Pastries" />
 				</div>
 				<p>Cupcakes</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img src="../../images/fruitpies.jpg" alt="Brownies" />
+					<img class="white-border" src="../../images/fruitpies.jpg" alt="Brownies" />
 				</div>
 				<p>Fruit Pies</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img src="../../images/donuts.jpg" alt="Brownies" />
+					<img class="white-border" src="../../images/donuts.jpg" alt="Brownies" />
 				</div>
 				<p>Donuts</p>
 			</div>
@@ -115,13 +115,49 @@ h3 {
 
 img {
 	object-fit: cover;
-	width: 350px;
-	height: 400px;
+	width: 15vw;
+	height: 20vw;
 	transition: 200ms ease-in-out;
+}
+
+.yellow-border {
+	border: 7px solid rgb(227, 188, 132);
+}
+
+.white-border {
+	border: 7px solid #ececec;
 }
 
 img:hover {
 	transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+	img {
+		width: 20vw;
+		height: 20vw;
+	}
+}
+
+@media (max-width: 815px) {
+	.card p {
+		text-align: center;
+	}
+
+	h1 {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+
+	h3 {
+		font-size: 1.1rem;
+		width: 90%;
+	}
+
+	img {
+		width: 250px;
+		height: 250px;
+	}
 }
 </style>
 

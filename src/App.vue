@@ -112,5 +112,16 @@ main button:hover {
 	align-items: center;
 	line-height: 4vh;
 }
+
+@media (max-width: 715px) {
+	#title h1 {
+		text-align: center;
+		line-height: 100px;
+	}
+
+	#title h2 {
+		text-align: center;
+	}
+}
 </style>
 

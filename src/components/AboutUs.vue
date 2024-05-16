@@ -49,9 +49,25 @@
 
 img {
 	object-fit: cover;
-	height: 300px;
-	width: 300px;
+	height: 30vh;
+	width: 30vh;
 	border: 10px solid rgb(227, 188, 132);
+}
+
+@media (max-width: 1250px) {
+	.body {
+		height: auto;
+	}
+	
+	#container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#container h3 {
+		width: 100%;
+	}
 }
 </style>
 

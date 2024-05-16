@@ -53,5 +53,30 @@ ul {
 ul li {
 	font-size: 1.1rem;
 }
+
+@media (max-width: 1250px) {
+	.body {
+		padding: 0;
+		display: flex;
+		padding: 5px;
+	}
+
+	#left,
+	#right {
+		text-align: center;
+	}
+
+	#border {
+		margin: 0 5px 0 5px;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.2rem;
+	}
+}
 </style>
 

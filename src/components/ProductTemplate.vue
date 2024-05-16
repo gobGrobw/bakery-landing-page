@@ -30,14 +30,28 @@ defineProps({
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	overflow: hidden;
 }
 
 #products {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-flow: column;
-	gap: 100px;
+	gap: 5vw;
 	margin-top: 80px;
+}
+
+@media (max-width: 815px) {
+	.body {
+		height: auto;
+	}
+
+	#products {
+		margin-top: 20px;
+		grid-auto-flow: dense;
+		gap: 10px;
+		margin-bottom: 20px;
+	}
 }
 </style>
 
