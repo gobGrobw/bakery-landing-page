@@ -2,9 +2,8 @@
 	<div id="body">
 		<ul>
 			<li><a href="#product-section">Products</a></li>
-			<li><a href="#">Bakeries</a></li>
-			<li><a href="#">Pastries</a></li>
-			<li><a href="#">About Us</a></li>
+			<li><a href="#snack-section">Snacks</a></li>
+			<li><a href="#about-us-section">About Us</a></li>
 		</ul>
 	</div>
 </template>

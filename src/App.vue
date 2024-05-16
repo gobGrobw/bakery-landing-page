@@ -1,13 +1,14 @@
 <script setup>
-import Product from './components/Product.vue';
 import Arrow from './components/icons/Arrow.vue';
 import MenuHeader from './components/MenuHeader.vue';
 import BackgroundSlider from './components/BackgroundSlider.vue';
+import Product from './components/Product.vue';
+import AboutUs from './components/AboutUs.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-	<!-- Background + Overlay -->
-	<!-- <div class="background"> -->
+	<!-- Main Section -->
 	<BackgroundSlider>
 		<MenuHeader />
 		<div class="overlay center">
@@ -26,8 +27,11 @@ import BackgroundSlider from './components/BackgroundSlider.vue';
 			</main>
 		</div>
 	</BackgroundSlider>
-	<!-- </div> -->
+
+	<!-- Product Section -->
 	<Product />
+	<AboutUs />
+	<Footer />
 </template>
 
 <style scoped>
@@ -52,22 +56,23 @@ main {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	z-index: 3;
 }
 
 main button {
 	border: 0;
 	border-radius: 5px;
 	color: white;
-	background: rgb(87, 60, 19);
+	background: rgba(87, 60, 19, 0.7);
 	font-size: 1.7rem;
 	font-weight: bold;
 	padding: 10px 15px 10px 15px;
 	cursor: pointer;
-	transition: 100ms ease-in-out;
+	transition: 200ms ease-in-out;
 }
 
 main button:hover {
-	background-color: rgb(112, 77, 24);
+	background: rgb(87, 60, 19);
 }
 
 /* Styling title */

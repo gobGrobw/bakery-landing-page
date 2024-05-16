@@ -11,12 +11,12 @@
 	width: 60px;
 	height: 60px;
 	border-radius: 60px;
-	border: 2px solid rgb(87, 60, 19);
-	background-color: rgb(87, 60, 19);
+	background-color: rgba(87, 60, 19, 0.7);
 	position: absolute;
 	top: 85vh;
 	animation: bounce;
 	cursor: pointer;
+	transition: 200ms ease-in-out;
 }
 
 .encircle:hover {
