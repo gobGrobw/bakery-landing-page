@@ -17,21 +17,33 @@ import ProductTemplate from './ProductTemplate.vue';
 		<template #product>
 			<div class="card">
 				<div id="container">
-					<img class="yellow-border" src="../../images/cake.jpg" alt="Cakes" />
+					<img
+						class="yellow-border"
+						src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="Cakes"
+					/>
 				</div>
 				<p>Cakes</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img class="yellow-border" src="../../images/pastry.jpg" alt="Pastries" />
+					<img
+						class="yellow-border"
+						src="https://images.unsplash.com/photo-1617026061250-62b474264442?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="Pastries"
+					/>
 				</div>
 				<p>Pastries</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img class="yellow-border" src="../../images/brownies.jpg" alt="Brownies" />
+					<img
+						class="yellow-border"
+						src="https://images.unsplash.com/photo-1606313564573-104197cf8f91?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="Brownies"
+					/>
 				</div>
 				<p>Brownies</p>
 			</div>
@@ -51,28 +63,44 @@ import ProductTemplate from './ProductTemplate.vue';
 		<template #product>
 			<div class="card">
 				<div id="container">
-					<img class="white-border" src="../../images/macarons.jpg" alt="Cakes" />
+					<img
+						class="white-border"
+						src="https://images.unsplash.com/photo-1596350351182-c2ce5b74a758?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="Cakes"
+					/>
 				</div>
 				<p>Macarons</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img class="white-border" src="../../images/cupcakes.jpg" alt="Pastries" />
+					<img
+						class="white-border"
+						src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3VwY2FrZXN8ZW58MHx8MHx8fDA%3D"
+						alt="Pastries"
+					/>
 				</div>
 				<p>Cupcakes</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img class="white-border" src="../../images/fruitpies.jpg" alt="Brownies" />
+					<img
+						class="white-border"
+						src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+						alt="Brownies"
+					/>
 				</div>
 				<p>Fruit Pies</p>
 			</div>
 
 			<div class="card">
 				<div id="container">
-					<img class="white-border" src="../../images/donuts.jpg" alt="Brownies" />
+					<img
+						class="white-border"
+						src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9udXRzfGVufDB8fDB8fHww"
+						alt="Brownies"
+					/>
 				</div>
 				<p>Donuts</p>
 			</div>
