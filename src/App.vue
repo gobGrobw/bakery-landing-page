@@ -119,7 +119,8 @@ main button:hover {
 		line-height: 100px;
 	}
 
-	#title h2 {
+	#title h2,
+	#title h3 {
 		text-align: center;
 	}
 }
