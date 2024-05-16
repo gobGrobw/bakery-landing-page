@@ -45,9 +45,9 @@
 #container h3 {
 	width: 20%;
 	font-weight: lighter;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	padding: 20px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 img {
