@@ -116,11 +116,11 @@ h1 {
 }
 
 h3 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: lighter;
 	overflow-wrap: break-word;
 	width: 50%;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 }
 
 .card {
